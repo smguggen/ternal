@@ -39,7 +39,7 @@ ternal.print('Hello World');
 ###### Output:
 ![Hello World blue background](assets/bg-blue.png?raw=true)
 ----
-_Change color_:
+_Same instance, change color_:
 ```javascript
     ternal.set({color:'red'}).print('Hello World');
 ```
