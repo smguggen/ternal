@@ -1,5 +1,6 @@
 {
     "format": {
+        "0":["default"],
         "1":["bold", "bright", "b"],
         "4":["underline", "underlined", "u"],
         "7":["invert", "reverse", "i", "r"],
@@ -7,6 +8,7 @@
     },
     
     "color": {
+        
         "31":["red", "r", "maroon", "tomato", "t"],
         "30":["black", "bl", "dark", "d"],
         "32":["green", "g", "kelly", "k"],
@@ -14,10 +16,11 @@
         "34":["blue", "b", "navy", "n", "sky", "s"],
         "35":["magenta", "m"],
         "36":["cyan", "c"],
-        "37":["white", "w", "normal"]
+        "37":["white", "w", "normal", "default"]
     },
     
     "bg": {
+        "0":["default"],
         "41":["red", "r", "maroon", "tomato", "t"],
         "40":["black", "bl", "dark", "d"],
         "42":["green", "g", "kelly", "k"],

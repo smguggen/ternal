@@ -1,19 +1,25 @@
 {
   "name": "ternal",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A node library for easily formatting console output.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./bin/test.js 'Hello World' blue"
+    "test": "ternal-test \"Hello World\" blue-underline"
   },
   "bin": {
-    "ternal": "./bin/ternal.js"
+    "ternal": "./bin/ternal.js",
+    "ternal-test": "./bin/ternal-test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smguggen/ternal.git"
   },
-  "keywords": ["nodejs", "console", "terminal", "format"],
+  "keywords": [
+    "nodejs",
+    "console",
+    "terminal",
+    "format"
+  ],
   "author": "Steven Guggenheimer",
   "license": "MIT",
   "dependencies": {
