@@ -8,7 +8,7 @@
     },
     
     "color": {
-        
+        "39":["default"],
         "31":["red", "r", "maroon", "tomato", "t"],
         "30":["black", "bl", "dark", "d"],
         "32":["green", "g", "kelly", "k"],
@@ -16,11 +16,11 @@
         "34":["blue", "b", "navy", "n", "sky", "s"],
         "35":["magenta", "m"],
         "36":["cyan", "c"],
-        "37":["white", "w", "normal", "default"]
+        "37":["white", "w"]
     },
     
     "bg": {
-        "0":["default"],
+        "49":["default"],
         "41":["red", "r", "maroon", "tomato", "t"],
         "40":["black", "bl", "dark", "d"],
         "42":["green", "g", "kelly", "k"],

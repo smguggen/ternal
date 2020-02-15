@@ -65,5 +65,12 @@ ternal.set({
     bg:'white',
     format:'bold'
 }, true);
-```
 
+console.log('I am blue and bold');
+
+ternal.reset('So am I');
+
+console.log('Now I\'m normal again');
+```
+###### Output: 
+![Hello World plain text](assets/multiple.png?raw=true)

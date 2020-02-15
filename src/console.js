@@ -1,3 +1,4 @@
+const { exec } = require('child_process');
 class Console {
     constructor(args) {
         this.maps = require('../lib/map.json');
@@ -21,7 +22,8 @@ class Console {
     
     reset(text) {
         text = text || '';
-        console.log(this.close + '%s', text);
+        this.print(text);
+        this.set('null-null-null');
         return this;
     }
     
@@ -104,7 +106,7 @@ class Console {
         }
         map = map.toLowerCase();
         let key = (this[map] || '').toLowerCase();
-        let m = this.maps[map];
+        let m = this.maps[map] || 'default';
         let n = Object.keys(m);
         return n.find((k) => {
             return m[k].includes(key);
