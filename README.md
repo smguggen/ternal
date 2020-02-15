@@ -5,7 +5,7 @@ A node library for easily formatting console output.
 Install
 -------
 ```javascript
-npm i ternal
+npm install ternal
 ```
 
 Usage
@@ -16,7 +16,7 @@ const { echo } = require('ternal');
 echo('blue', 'Hello World');
 ```
 ###### Output:
-![Hello World blue](https://github.com/smguggen/ternal/blob/master/assets/blue.png?raw=true)
+![Hello World blue](assets/blue.png?raw=true)
 ```javascript
 echo('white-blue', 'Hello World');
 ```
@@ -35,14 +35,14 @@ let ternal = new Ternal({
 ternal.print('Hello World');
 ```
 ###### Output:
-![Hello World blue background](https://github.com/smguggen/ternal/blob/master/assets/bg-blue.png?raw=true)
+![Hello World blue background](assets/bg-blue.png?raw=true)
 
 Change color:
 ```javascript
     ternal.set({color:'red'}).print('Hello World');
 ```
 ###### Output:
-![Hello World red blue background](https://github.com/smguggen/ternal/blob/master/assets/red-blue-bg.png?raw=true)
+![Hello World red blue background](assets/red-blue-bg.png?raw=true)
 
 Remove background and underline text:
 ```javascript
@@ -55,8 +55,7 @@ Reset to defaults
 ```javascript
 ternal.reset().print('Hello World');
 ```
-###### Output:
-![Hello World plain text](assets/plain.png?raw=true)
+###### Output: ![Hello World plain text](assets/plain.png?raw=true)
 
 Or call _ternal.set()_ with the second parameter set to true to change your terminal defaults
 ```javascript
