@@ -73,4 +73,4 @@ ternal.reset('So am I');
 console.log('Now I\'m normal again');
 ```
 ###### Output: 
-![Hello World plain text](assets/multiple.png?raw=true)
+![Hello World multiline](assets/multi.png?raw=true)
