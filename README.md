@@ -30,6 +30,7 @@ ternal.print('Hello World');
 ![Hello World blue](assets/blue.png?raw=true)
 ---
 _New instance with blue background_:
+```javascript
 let ternal = new Ternal({
     bg:'blue'
 });
