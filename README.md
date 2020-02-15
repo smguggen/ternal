@@ -67,9 +67,8 @@ ternal.set({
 }, true);
 
 console.log('I am blue and bold');
-
-ternal.reset('So am I');
-
+console.log('So am I')
+ternal.reset('Let\'s go back to normal');
 console.log('Now I\'m normal again');
 ```
 ###### Output: 
