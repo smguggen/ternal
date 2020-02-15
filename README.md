@@ -25,8 +25,11 @@ const Ternal = require('ternal');
 
 let ternal = new Ternal('blue');
 ternal.print('Hello World');
-
-//set the background (default color is white)
+```
+###### Output:
+![Hello World blue](assets/blue.png?raw=true)
+---
+_New instance with blue background_:
 let ternal = new Ternal({
     bg:'blue'
 });
@@ -35,28 +38,28 @@ ternal.print('Hello World');
 ###### Output:
 ![Hello World blue background](assets/bg-blue.png?raw=true)
 ----
-Change color:
+_Change color_:
 ```javascript
     ternal.set({color:'red'}).print('Hello World');
 ```
 ###### Output:
 ![Hello World red blue background](assets/red-blue-bg.png?raw=true)
 ----
-Remove background and underline text:
+_Remove background and underline text_:
 ```javascript
 ternal.set({bg: null, format: 'underline'}).print('Hello World');
 ```
 ###### Output:
 ![Hello World red underlined](assets/red-underline.png?raw=true)
 ----
-Reset to defaults:
+_Reset to defaults_:
 ```javascript
 ternal.reset().print('Hello World');
 ```
 ###### Output: 
 ![Hello World plain text](assets/plain.png?raw=true)
 ----
-Or call `ternal.set()` with the second parameter set to true to change your terminal defaults
+_Call `ternal.set()` with the second parameter set to true to change your terminal defaults_:
 ```javascript
 ternal.set({
     color:'blue',
