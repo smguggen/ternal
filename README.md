@@ -10,25 +10,18 @@ npm i ternal
 
 Usage
 -----
-#### The quick way:
+### The quick way:
 ```javascript
 const { echo } = require('ternal');
 echo('blue', 'Hello World');
 ```
-*Output*:
+###### Output:
 ![Hello World blue](https://github.com/smguggen/ternal/blob/master/assets/blue.png?raw=true)
 ```javascript
 echo('white-blue', 'Hello World');
 ```
-*Output*:
-![Hello World background blue](https://github.com/smguggen/ternal/blob/master/assets/bg-blue.png?raw=true)
-```javascript
-echo('blue-null-underline', 'Hello World');
-```
-*Output*:
-![Hello World blue underline](https://github.com/smguggen/ternal/blob/master/assets/blue-underline.png?raw=true)
------
-#### Using a ternal instance: 
+
+### Using a ternal instance: 
 ```javascript
 const Ternal = require('ternal');
 
@@ -41,7 +34,7 @@ let ternal = new Ternal({
 });
 ternal.print('Hello World');
 ```
-##### Output:
+###### Output:
 ![Hello World blue background](https://github.com/smguggen/ternal/blob/master/assets/bg-blue.png?raw=true)
 
 Change color:
@@ -62,7 +55,7 @@ Reset to defaults
 ```javascript
 ternal.reset().print('Hello World');
 ```
-#### Output:
+###### Output:
 ![Hello World plain text](assets/plain.png?raw=true)
 
 Or call _ternal.set()_ with the second parameter set to true to change your terminal defaults
