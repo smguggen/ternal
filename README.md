@@ -56,9 +56,8 @@ Reset to defaults
 ternal.reset().print('Hello World');
 ```
 ###### Output: 
-```console
 ![Hello World plain text](assets/plain.png?raw=true)
-```
+
 Or call `ternal.set()` with the second parameter set to true to change your terminal defaults
 ```javascript
 ternal.set({
