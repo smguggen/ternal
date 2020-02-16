@@ -83,5 +83,5 @@ You can also use ternal as a shell command or straight from the command line if 
 ```console
 foo:bar foo$ ternal set blue
 #blue output
-foo:bar foo$ ternal reset
+#foo:bar foo$ ternal reset
 ```
