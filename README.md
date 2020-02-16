@@ -83,5 +83,16 @@ You can also use ternal as a shell command or straight from the command line if 
 ```console
 foo:bar foo$ ternal set blue
 #blue output
-#foo:bar foo$ ternal reset
+foo:bar foo$ ternal reset
 ```
+Or by using the command `ternal globalize` you can activate `xternal`, the shell version of ternal, and place the `xternal` command in your global path for use in the command line and shell scripts.
+```console
+foo:bar foo$ ternal globalize
+
+xternal command now globally executable.
+
+foo:bar foo$ xternal -c blue -t "Hello World"
+```
+###### Output:
+![Hello World blue](assets/blue.png?raw=true)
+----
