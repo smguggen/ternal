@@ -20,6 +20,8 @@ while [ $# -gt 0 ]; do
         -b | --bg) bg=$2;
         shift 2;
         ;;
+        -r | --reset) echo -e "\x1b[0m" && exit 1;
+        ;;
         *) params="$params $1"
         shift;
         ;;
@@ -135,4 +137,8 @@ if [[ $format ]]; then
     color="$format;$color";
 fi
 
-echo -e "\x1b[${color}m$text\x1b[0m"
+if [[ -z $text ]]; then
+    echo -e "\x1b[${color}m"
+else
+    echo -e "\x1b[${color}m$text\x1b[0m"
+fi

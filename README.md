@@ -91,8 +91,18 @@ foo:bar foo$ ternal globalize
 
 xternal command now globally executable.
 
-foo:bar foo$ xternal -c blue -t "Hello World"
+foo:bar foo$ xternal blue
+
+foo:bar foo$ echo "Hello World"
 ```
 ###### Output:
 ![Hello World blue](assets/blue.png?raw=true)
+----
+```console
+foo:bar foo$ xternal --reset
+
+foo:bar foo$ echo "Hello World"
+```
+###### Output:
+![Hello World blue](assets/plain.png?raw=true)
 ----
