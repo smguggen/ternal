@@ -76,3 +76,12 @@ console.log('Now I\'m normal again');
 ###### Output: 
 ![Hello World multiline](assets/multi.png?raw=true)
 ----
+
+Command Line
+-----
+You can also use ternal as a shell command or straight from the command line if you want to format your own terminal output:
+```console
+foo:bar foo$ ternal set blue
+
+-e \x1b[34mfoo:bar foo$
+```

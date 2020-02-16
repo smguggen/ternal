@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-const { echo } = require('../src/console.js');
 const Ternal = require('../src/console.js');
 let ternal = new Ternal();
 ternal.set({

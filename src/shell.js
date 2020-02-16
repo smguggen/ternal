@@ -17,11 +17,11 @@ class Shell extends Con {
     }
     
     set() {
-        console.log(this.open, 'Colors Set');
+        console.log(this.open, '');
     }
     
     reset() {
-        console.log(this.close, 'Colors Unset');
+        console.log(this.close, '');
     }
     
     
