@@ -79,13 +79,13 @@ console.log('Now I\'m normal again');
 
 Command Line
 -----
-You can also use ternal as a shell command or straight from the command line if you want to format your own terminal output:
+You can also use `ternal` straight from the command line:
 ```console
 foo:bar foo$ ternal set blue
 #blue output
 foo:bar foo$ ternal reset
 ```
-Or by using the command `ternal globalize` you can activate `xternal`, the shell version of ternal, and place the `xternal` command in your global path for use in the command line and shell scripts.
+Or use the command `ternal globalize` to place the `xternal` executable in your global path:
 ```console
 foo:bar foo$ ternal globalize
 
