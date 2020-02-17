@@ -3,8 +3,9 @@
 A node library for easily formatting console output.
 ------
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/smguggen/ternal?style=plastic)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/smguggen/ternal/Build?style=plastic)
-![NPM](https://img.shields.io/npm/l/ternal)
+![NPM](https://img.shields.io/npm/l/ternal?style=plastic)
 
 Install
 -------
