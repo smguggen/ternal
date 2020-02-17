@@ -1,6 +1,9 @@
 # Ternal
 
 A node library for easily formatting console output.
+------
+
+![NPM](https://img.shields.io/npm/l/ternal)
 
 Install
 -------
