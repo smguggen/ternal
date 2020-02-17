@@ -9,25 +9,25 @@
     
     "color": {
         "39":["default"],
-        "31":["red", "r", "maroon", "tomato", "t"],
-        "30":["black", "bl", "dark", "d"],
-        "32":["green", "g", "kelly", "k"],
+        "31":["red", "r"],
+        "30":["black", "bl"],
+        "32":["green", "g"],
         "33":["yellow", "y"],
-        "34":["blue", "b", "navy", "n", "sky", "s"],
-        "35":["magenta", "m"],
-        "36":["cyan", "c"],
+        "34":["blue", "b", "navy", "n"],
+        "35":["magenta", "m", "purple", "p"],
+        "36":["cyan", "c", "aqua", "a", "teal", "t"],
         "37":["white", "w"]
     },
     
     "bg": {
         "49":["default"],
-        "41":["red", "r", "maroon", "tomato", "t"],
-        "40":["black", "bl", "dark", "d"],
-        "42":["green", "g", "kelly", "k"],
+        "41":["red", "r"],
+        "40":["black", "bl"],
+        "42":["green", "g"],
         "43":["yellow", "y"],
-        "44":["blue", "b", "navy", "n", "sky", "s"],
-        "45":["magenta", "m"],
-        "46":["cyan", "c"],
+        "44":["blue", "b", "navy", "n"],
+        "45":["magenta", "m", "purple", "p"],
+        "46":["cyan", "c", "aqua", "a", "teal", "t"],
         "47":["white", "w"]
     }
 }
