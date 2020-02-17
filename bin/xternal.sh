@@ -20,7 +20,7 @@ while [ $# -gt 0 ]; do
         -b | --bg) bg=$2;
         shift 2;
         ;;
-        -r | --reset) echo -e "\x1b[0m" && exit 1;
+        -r | --reset | reset) echo -e "\x1b[0m" && exit 1;
         ;;
         *) params="$params $1"
         shift;
