@@ -21,8 +21,5 @@
     "format"
   ],
   "author": "Steven Guggenheimer",
-  "license": "MIT",
-  "dependencies": {
-    "node": "^13.8.0"
-  }
+  "license": "MIT"
 }
