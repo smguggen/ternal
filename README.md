@@ -3,7 +3,7 @@
 A node library for easily formatting console output.
 ------
 
-![Build](https://github.com/smguggen/ternal/workflows/Build/badge.svg)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/smguggen/ternal/Build?style=plastic)
 ![NPM](https://img.shields.io/npm/l/ternal)
 
 Install
