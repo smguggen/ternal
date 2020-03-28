@@ -1,6 +1,6 @@
 {
   "name": "ternal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A node library for easily formatting console output.",
   "main": "index.js",
   "scripts": {
