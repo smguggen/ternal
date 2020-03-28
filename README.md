@@ -3,7 +3,6 @@
 A node library for easily formatting console output.
 ------
 
-![Ternal](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrcer.com%2Fshields%2FApp%2FTernal%2Fblueviolet)
 ![![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrcer.com%2Fshields%2FTernal%2FVersion%2Finformational)](https://img.shields.io/github/package-json/v/smguggen/ternal?style=plastic)
 ![![Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrcer.com%2Fshields%2FTernal%2FStatus%2Fsuccess)](https://img.shields.io/github/workflow/status/smguggen/ternal/Build?style=plastic)
 ![![Size](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrcer.com%2Fshields%2FTernal%2FSize%2Finformational)](https://img.shields.io/bundlephobia/min/ternal?style=plastic)
